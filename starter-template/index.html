@@ -5,43 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
   <title>Starter Template - Materialize</title>
 
-
-  {{!-- Firebase --}}
-  <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/ui/live/0.5/firebase-ui-auth.js"></script>
-  <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/live/0.5/firebase-ui-auth.css" />
-
-
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <script>
-  document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
-  ':9001/livereload.js?snipver=1"></' + 'script>')
-</script>
-
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="blue" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Notes</a>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
       <ul class="right hide-on-med-and-down">
-        <li><div id="firebaseui-auth-container"></div></li>
+        <li><a href="#">Navbar Link</a></li>
       </ul>
 
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h1 class="header center orange-text">Notes</h1>
+      <h1 class="header center orange-text">Starter Template</h1>
       <div class="row center">
-        <h5 class="header col s12 light">The ultimate task organiser.</h5>
+        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
       </div>
-      {{!--<div class="row center">
+      <div class="row center">
         <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
-      </div>--}}
+      </div>
       <br><br>
 
     </div>
@@ -56,9 +47,9 @@
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Reminds you of things you need to do</h5>
+            <h5 class="center">Speeds up development</h5>
 
-            <p class="light">Like your own personal secratery notes will alert you to when thing things need to be done and if you have anything imporntant coming up such as the family dinner that your parents will never forgive you for missing.</p>
+            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
           </div>
         </div>
 
@@ -67,7 +58,7 @@
             <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
             <h5 class="center">User Experience Focused</h5>
 
-            <p class="light">By not only reminding you when tasks are needed and reminding you what needs to be done notes helps you be more productive.</p>
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
           </div>
         </div>
 
@@ -76,7 +67,7 @@
             <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
             <h5 class="center">Easy to work with</h5>
 
-            <p class="light">The notes UI is extremely seimple to use with almost all meaning buildt in to the icons of the UI ven the least tech-savy people would be able to understand how it works at first glance.</p>
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
           </div>
         </div>
       </div>
@@ -128,8 +119,8 @@
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.min.js"></script>
-  <script src="js/index.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
 
   </body>
 </html>
